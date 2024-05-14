@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Stone Paper Scissor</h1>
+
+            <!-- buttons -->
+    
+    <div class="choices">
+        <div class="choice" id="Rock">
+            <img src="./image/rock.jpg">
+        </div>
+        <div class="choice" id="Paper">
+            <img src="./image/paper.jpg">
+        </div>
+        <div class="choice" id="Scissor">
+            <img src="./image/scissor.jpg">
+        </div>
+    </div>
+
+            <!-- score board -->
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>User</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p>Comp</p>
+        </div>
+    </div>
+
+            <!-- Message -->
+
+    <div class="msg-container">
+        <div id="msg"> Play your move </div>
+    </div>
+
+            <!-- Reset button -->
+
+    <div>
+    <button id="btn-reset">Reset Game</button>
+    </div>
+    
+    
+        <!--winner history -->
+    <div class="history">
+        <p>Last winner :-  </p>
+        <p class="lstwinner"></p>
+    </div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
